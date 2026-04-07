@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-03T20:38:07.0587596Z",
+  "generatedUtc": "2026-04-07T18:07:52.7243454Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103916,6 +103916,48 @@
             "Max Exp",
             "Maximum Number of Kills",
             "Time Stop"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20560",
+      "version": "01.009.000",
+      "title": "DOOM: The Dark Ages",
+      "idLower": "ppsa20560",
+      "titleLower": "doom: the dark ages",
+      "cheatsTotal": 10,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Gold \u0026 Ruby (Use)",
+            "Infi Health (Dragon)",
+            "Infi Health (Mech, Turret)",
+            "Infi Health (Player)",
+            "Infi Punch",
+            "Infi Shield Durability",
+            "Untouchable (Mech, Turret)",
+            "Untouchable (Player)"
           ]
         }
       }

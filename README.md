@@ -16,6 +16,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 ## Version History
 | Date | Status | ID | Version | Title |
+| 2026-04-07 | ADDED | PPSA20560 | 01.009.000 | DOOM: The Dark Ages |
 | 2026-04-03 | ADDED | PPSA01576 | 01.011.000 | Avatar: Frontiers of Pandora |
 | 2026-04-03 | UPDATE | PPSA21159 | 01.001.000 | SILENT HILL f |
 | :----: | :---- | :---- | :---- | :---- |
