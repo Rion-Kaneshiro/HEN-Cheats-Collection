@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-07T18:07:52.7243454Z",
+  "generatedUtc": "2026-04-08T17:44:47.2040742Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -11118,7 +11118,7 @@
     {
       "id": "CUSA02092",
       "version": "01.00",
-      "title": "Doom",
+      "title": "DOOM",
       "idLower": "cusa02092",
       "titleLower": "doom",
       "cheatsTotal": 4,
@@ -11155,7 +11155,7 @@
     {
       "id": "CUSA02092",
       "version": "01.11",
-      "title": "Doom",
+      "title": "DOOM",
       "idLower": "cusa02092",
       "titleLower": "doom",
       "cheatsTotal": 12,
@@ -11203,7 +11203,7 @@
     {
       "id": "CUSA02092",
       "version": "01.12",
-      "title": "Doom",
+      "title": "DOOM",
       "idLower": "cusa02092",
       "titleLower": "doom",
       "cheatsTotal": 11,
@@ -51801,7 +51801,7 @@
     {
       "id": "CUSA13275",
       "version": "01.02",
-      "title": "Doom Eternal",
+      "title": "DOOM Eternal",
       "idLower": "cusa13275",
       "titleLower": "doom eternal",
       "cheatsTotal": 12,
@@ -51846,7 +51846,7 @@
     {
       "id": "CUSA13275",
       "version": "01.08",
-      "title": "Doom Eternal",
+      "title": "DOOM Eternal",
       "idLower": "cusa13275",
       "titleLower": "doom eternal",
       "cheatsTotal": 18,
@@ -51897,7 +51897,7 @@
     {
       "id": "CUSA13275",
       "version": "01.23",
-      "title": "Doom Eternal",
+      "title": "DOOM Eternal",
       "idLower": "cusa13275",
       "titleLower": "doom eternal",
       "cheatsTotal": 51,
@@ -51983,7 +51983,7 @@
     {
       "id": "CUSA13275",
       "version": "01.27",
-      "title": "Doom Eternal",
+      "title": "DOOM Eternal",
       "idLower": "cusa13275",
       "titleLower": "doom eternal",
       "cheatsTotal": 12,
@@ -52260,7 +52260,7 @@
     {
       "id": "CUSA13338",
       "version": "01.02",
-      "title": "Doom Eternal",
+      "title": "DOOM Eternal",
       "idLower": "cusa13338",
       "titleLower": "doom eternal",
       "cheatsTotal": 2,
@@ -52297,7 +52297,7 @@
     {
       "id": "CUSA13338",
       "version": "01.23",
-      "title": "Doom Eternal",
+      "title": "DOOM Eternal",
       "idLower": "cusa13338",
       "titleLower": "doom eternal",
       "cheatsTotal": 9,
@@ -52338,7 +52338,7 @@
     {
       "id": "CUSA13338",
       "version": "01.25",
-      "title": "Doom Eternal",
+      "title": "DOOM Eternal",
       "idLower": "cusa13338",
       "titleLower": "doom eternal",
       "cheatsTotal": 24,
@@ -60232,7 +60232,7 @@
     {
       "id": "CUSA16286",
       "version": "01.03",
-      "title": "Doom 3",
+      "title": "DOOM 3",
       "idLower": "cusa16286",
       "titleLower": "doom 3",
       "cheatsTotal": 5,
@@ -60360,7 +60360,7 @@
     {
       "id": "CUSA16296",
       "version": "01.00",
-      "title": "Doom 64",
+      "title": "DOOM 64",
       "idLower": "cusa16296",
       "titleLower": "doom 64",
       "cheatsTotal": 22,
@@ -60415,7 +60415,7 @@
     {
       "id": "CUSA16296",
       "version": "01.01",
-      "title": "Doom 64",
+      "title": "DOOM 64",
       "idLower": "cusa16296",
       "titleLower": "doom 64",
       "cheatsTotal": 11,
@@ -104141,6 +104141,48 @@
             "Max items",
             "Max Money",
             "Max Skill points"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA25381",
+      "version": "01.000.000",
+      "title": "ELDEN RING NIGHTREIGN",
+      "idLower": "ppsa25381",
+      "titleLower": "elden ring nightreign",
+      "cheatsTotal": 10,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "1 Hit Kill",
+            "Infinite FP",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (Mastecode/Must Be On)",
+            "Infinite Items On Use",
+            "Infinite Stamina",
+            "Infinite Ultimate Art",
+            "Max/Infinite Murks",
+            "Max/Infinite Runes",
+            "No Skill Cooldown"
           ]
         }
       }

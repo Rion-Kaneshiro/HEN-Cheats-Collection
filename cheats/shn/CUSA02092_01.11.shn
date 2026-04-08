@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Doom" Moder="TLH" Cusa="CUSA02092" Version="01.11" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="DOOM" Moder="TLH" Cusa="CUSA02092" Version="01.11" Process="eboot.bin">
   <Genres Name="Action" />
   <Genres Name="Fighting" />
   <Genres Name="FPS" />
