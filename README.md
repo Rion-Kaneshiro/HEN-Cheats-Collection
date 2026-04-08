@@ -16,10 +16,12 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 
 ## Version History
 | Date | Status | ID | Version | Title |
+|-|-|-|-|-|
 | 2026-04-08 | ADDED | PPSA25381 | 01.000.000 | ELDEN RING NIGHTREIGN |
 | 2026-04-07 | ADDED | PPSA20560 | 01.009.000 | DOOM: The Dark Ages |
 | 2026-04-03 | ADDED | PPSA01576 | 01.011.000 | Avatar: Frontiers of Pandora |
 | 2026-04-03 | UPDATE | PPSA21159 | 01.001.000 | SILENT HILL f |
+| **---------------** | | | | |
 | 2026-03-30 | ADDED | PPSA21159 | 01.001.000 | Silent Hill f |
 | 2026-03-28 | ADDED | PPSA16388 | 01.017.000 | Hitman: World of Assassination |
 | 2026-03-27 | UPDATE | PPSA08260 | 01.003.001 | Star Wars Outlaws |
@@ -92,6 +94,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | 2026-03-07 | ADDED | PPSA04813 | 01.000.000 | Outcast: A New Beginning |
 | 2026-03-07 | ADDED | PPSA04814 | 01.000.000 | Outcast: A New Beginning |
 | 2026-03-02 | ADDED | CUSA11260 | 01.13 | Death Stranding |
+| **---------------** | | | | |
 | 2026-02-28 | ADDED | PPSA18259 | 01.000.000 | Dead Rising Deluxe Remaster |
 | 2026-02-26 | ADDED | PPSA04609 | 01.017.000 | Elden Ring |
 | 2026-02-25 | ADDED | PPSA01284 | 03.000.004 | Returnal |
