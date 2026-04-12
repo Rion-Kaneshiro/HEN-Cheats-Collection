@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-10T09:38:00.3209591Z",
+  "generatedUtc": "2026-04-12T08:38:44.6616664Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104221,6 +104221,42 @@
             "Max/Infinite Murks",
             "Max/Infinite Runes",
             "No Skill Cooldown"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26786",
+      "version": "01.009.000",
+      "title": "Indiana Jones and The Great Circle",
+      "idLower": "ppsa26786",
+      "titleLower": "indiana jones and the great circle",
+      "cheatsTotal": 4,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Money \u0026 Points (Get)",
+            "Infi Stamina"
           ]
         }
       }

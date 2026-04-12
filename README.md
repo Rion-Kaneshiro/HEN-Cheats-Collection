@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-04-12 | ADDED | PPSA26786 | 01.009.000 | Indiana Jones and The Great Circle |
 | 2026-04-10 | ADDED | PPSA24096 | 01.006.000 | Cronos: The New Dawn |
 | 2026-04-08 | ADDED | PPSA25381 | 01.000.000 | ELDEN RING NIGHTREIGN |
 | 2026-04-07 | ADDED | PPSA20560 | 01.009.000 | DOOM: The Dark Ages |
