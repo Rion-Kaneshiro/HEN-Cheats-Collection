@@ -17,13 +17,14 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-04-13 | ADDED | PPSA26344 | 01.008.000 | Ghost of Yotei |
 | 2026-04-12 | ADDED | PPSA26786 | 01.009.000 | Indiana Jones and The Great Circle |
 | 2026-04-10 | ADDED | PPSA24096 | 01.006.000 | Cronos: The New Dawn |
 | 2026-04-08 | ADDED | PPSA25381 | 01.000.000 | ELDEN RING NIGHTREIGN |
 | 2026-04-07 | ADDED | PPSA20560 | 01.009.000 | DOOM: The Dark Ages |
 | 2026-04-03 | ADDED | PPSA01576 | 01.011.000 | Avatar: Frontiers of Pandora |
 | 2026-04-03 | UPDATE | PPSA21159 | 01.001.000 | SILENT HILL f |
-| **---------------** | | | | |
+| **---** | | | | |
 | 2026-03-30 | ADDED | PPSA21159 | 01.001.000 | Silent Hill f |
 | 2026-03-28 | ADDED | PPSA16388 | 01.017.000 | Hitman: World of Assassination |
 | 2026-03-27 | UPDATE | PPSA08260 | 01.003.001 | Star Wars Outlaws |
