@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-12T08:38:44.6616664Z",
+  "generatedUtc": "2026-04-13T08:14:39.9484842Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104221,6 +104221,41 @@
             "Max/Infinite Murks",
             "Max/Infinite Runes",
             "No Skill Cooldown"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26344",
+      "version": "01.008.000",
+      "title": "Ghost of Yotei",
+      "idLower": "ppsa26344",
+      "titleLower": "ghost of yotei",
+      "cheatsTotal": 3,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Max Money (Buy or Sell)"
           ]
         }
       }
