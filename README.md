@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-04-13 | ADDED | PPSA22327 | 01.685.672 | Forza Horizon 5 |
 | 2026-04-13 | ADDED | PPSA26344 | 01.008.000 | Ghost of Yotei |
 | 2026-04-12 | ADDED | PPSA26786 | 01.009.000 | Indiana Jones and The Great Circle |
 | 2026-04-10 | ADDED | PPSA24096 | 01.006.000 | Cronos: The New Dawn |

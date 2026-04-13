@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-13T08:14:39.9484842Z",
+  "generatedUtc": "2026-04-13T09:50:03.0447591Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104082,6 +104082,40 @@
           "cheats": [
             "Infinite Jumps",
             "Max Coins"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA22327",
+      "version": "01.685.672",
+      "title": "Forza Horizon 5",
+      "idLower": "ppsa22327",
+      "titleLower": "forza horizon 5",
+      "cheatsTotal": 2,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infi Mastery Points (Use)",
+            "Infi Money (Enter Shop and Exit)"
           ]
         }
       }
