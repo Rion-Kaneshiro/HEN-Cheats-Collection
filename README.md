@@ -18,6 +18,13 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
 | 2026-04-18 | ADDED | PPSA20447 | 01.000.020 | The First Berserker: Khazan |
+| 2026-04-18 | UPDATE | PPSA01593 | 01.000.010 | Hogwarts Legacy |
+| 2026-04-18 | UPDATE | PPSA01716 | 01.000.027 | Need for Speed Unbound |
+| 2026-04-18 | UPDATE | PPSA06389 | 01.000.000 | System Shock |
+| 2026-04-18 | UPDATE | PPSA20612 | 01.000.000 | Dragon Quest III HD-2D Remake |
+| 2026-04-18 | UPDATE | PPSA21159 | 01.001.000 | Silent Hill f |
+| 2026-04-18 | UPDATE | PPSA22327 | 01.685.672 | Forza Horizon 5 |
+| 2026-04-18 | UPDATE | PPSA10053 | 01.005.000 | Banishers: Ghosts of New Eden |
 | 2026-04-16 | UPDATE | PPSA17599 | 01.400.000 | Clair Obscur: Expedition 33 |
 | 2026-04-16 | UPDATE | PPSA22327 | 01.685.672 | Forza Horizon 5 |
 | 2026-04-13 | ADDED | PPSA22327 | 01.685.672 | Forza Horizon 5 |

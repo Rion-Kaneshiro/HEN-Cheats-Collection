@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-18T11:04:39.966922Z",
+  "generatedUtc": "2026-04-18T12:21:39.2762298Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103019,7 +103019,7 @@
       "title": "Banishers: Ghosts of New Eden",
       "idLower": "ppsa10053",
       "titleLower": "banishers: ghosts of new eden",
-      "cheatsTotal": 6,
+      "cheatsTotal": 5,
       "creators": [
         "Yharnam"
       ],
@@ -103039,14 +103039,13 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 6,
+          "cheatsCount": 5,
           "cheats": [
             "God Mode",
             "Infi Healing Potion",
             "Infi Rifle (No Reload)",
             "Infi Skill Gauge",
-            "Max Items \u0026 Money",
-            "Untouchable"
+            "Max Items \u0026 Money \u0026 Skill Point"
           ]
         }
       }
