@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-16T06:52:52.9134808Z",
+  "generatedUtc": "2026-04-18T11:04:39.966922Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103916,6 +103916,49 @@
             "Max Exp",
             "Maximum Number of Kills",
             "Time Stop"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA20447",
+      "version": "01.000.020",
+      "title": "The First Berserker: Khazan",
+      "idLower": "ppsa20447",
+      "titleLower": "the first berserker: khazan",
+      "cheatsTotal": 11,
+      "creators": [
+        "Celogamez"
+      ],
+      "creatorsLower": [
+        "celogamez"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 11,
+          "cheats": [
+            "1 Hit Kill",
+            "Infinite Consumables On Use",
+            "Infinite Health",
+            "Infinite Health/1 Hit Kill (Mastercode/Must Be On)",
+            "Infinite Javelin",
+            "Infinite Stamina",
+            "Infinite Stamina/Javelin/No Weight (Mastercode/Must Be On)",
+            "Max/Infinite Gold",
+            "Max/Infinite Lacrimas",
+            "Max/Infinite Skill Points",
+            "No Weight"
           ]
         }
       }

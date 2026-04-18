@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-04-18 | ADDED | PPSA20447 | 01.000.020 | The First Berserker: Khazan |
 | 2026-04-16 | UPDATE | PPSA17599 | 01.400.000 | Clair Obscur: Expedition 33 |
 | 2026-04-16 | UPDATE | PPSA22327 | 01.685.672 | Forza Horizon 5 |
 | 2026-04-13 | ADDED | PPSA22327 | 01.685.672 | Forza Horizon 5 |
