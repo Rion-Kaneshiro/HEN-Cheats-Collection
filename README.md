@@ -17,6 +17,8 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-04-21 | ADDED | PPSA14251 | 01.006.000 | Mafia: The Old Country |
+| 2026-04-21 | ADDED | PPSA14299 | 01.006.000 | Mafia: The Old Country |
 | 2026-04-18 | ADDED | PPSA20447 | 01.000.020 | The First Berserker: Khazan |
 | 2026-04-18 | UPDATE | PPSA01593 | 01.000.010 | Hogwarts Legacy |
 | 2026-04-18 | UPDATE | PPSA01716 | 01.000.027 | Need for Speed Unbound |

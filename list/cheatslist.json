@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-18T12:21:39.2762298Z",
+  "generatedUtc": "2026-04-21T16:47:57.7886968Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103455,6 +103455,44 @@
       }
     },
     {
+      "id": "PPSA14251",
+      "version": "01.006.000",
+      "title": "Mafia: The Old Country",
+      "idLower": "ppsa14251",
+      "titleLower": "mafia: the old country",
+      "cheatsTotal": 6,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Horse Dash",
+            "Infi Knife Durability",
+            "Master Code (Must Be Activated First)",
+            "Max Money (Buy)"
+          ]
+        }
+      }
+    },
+    {
       "id": "PPSA14275",
       "version": "01.001.004",
       "title": "Trine 5: A Clockwork Conspiracy",
@@ -103485,6 +103523,44 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA14299",
+      "version": "01.006.000",
+      "title": "Mafia: The Old Country",
+      "idLower": "ppsa14299",
+      "titleLower": "mafia: the old country",
+      "cheatsTotal": 6,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Horse Dash",
+            "Infi Knife Durability",
+            "Master Code (Must Be Activated First)",
+            "Max Money (Buy)"
+          ]
         }
       }
     },
