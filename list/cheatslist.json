@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-21T16:47:57.7886968Z",
+  "generatedUtc": "2026-04-24T20:50:08.3417464Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104444,6 +104444,41 @@
             "Infi Health",
             "Infi Money \u0026 Points (Get)",
             "Infi Stamina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA28329",
+      "version": "01.005.000",
+      "title": "RoboCop: Rogue City - Unfinished Business",
+      "idLower": "ppsa28329",
+      "titleLower": "robocop: rogue city - unfinished business",
+      "cheatsTotal": 3,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Inf Ammo",
+            "Inf Health",
+            "Max Exp"
           ]
         }
       }
