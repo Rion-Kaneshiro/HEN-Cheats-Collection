@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-04-28 | ADDED | PPSA21704 | 01.041.000 | Kingdom Come: Deliverance II |
 | 2026-04-24 | ADDED | PPSA28329 | 01.005.000 | RoboCop: Rogue City - Unfinished Business |
 | 2026-04-21 | ADDED | PPSA14251 | 01.006.000 | Mafia: The Old Country |
 | 2026-04-21 | ADDED | PPSA14299 | 01.006.000 | Mafia: The Old Country |

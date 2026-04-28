@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-24T20:50:08.3417464Z",
+  "generatedUtc": "2026-04-28T16:25:53.7684404Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104200,6 +104200,49 @@
           "cheats": [
             "Infinite Jumps",
             "Max Coins"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA21704",
+      "version": "01.041.000",
+      "title": "Kingdom Come: Deliverance II",
+      "idLower": "ppsa21704",
+      "titleLower": "kingdom come: deliverance ii",
+      "cheatsTotal": 11,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 11,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Durability (Weapons, Armor, Some Items)",
+            "Infi Energy (Fatigue)",
+            "Infi Health",
+            "Infi Money (Sell)",
+            "Infi Stamina",
+            "No Fall Damage",
+            "No Hunger",
+            "Stealth Kill (Touch)",
+            "Untouchable",
+            "Zero Weight (When Changed)"
           ]
         }
       }
