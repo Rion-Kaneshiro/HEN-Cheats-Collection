@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-28T16:25:53.7684404Z",
+  "generatedUtc": "2026-04-30T10:41:44.320114Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -100510,12 +100510,12 @@
       }
     },
     {
-      "id": "PPSA03099",
+      "id": "PPSA03098",
       "version": "01.000.001",
       "title": "Dead Island 2",
-      "idLower": "ppsa03099",
+      "idLower": "ppsa03098",
       "titleLower": "dead island 2",
-      "cheatsTotal": 8,
+      "cheatsTotal": 9,
       "creators": [
         "Yharnam"
       ],
@@ -100535,14 +100535,98 @@
         },
         "mc4": {
           "hasFile": true,
-          "cheatsCount": 8,
+          "cheatsCount": 9,
           "cheats": [
+            "1 Hit Kill",
             "Infi Ammo",
             "Infi Fury",
             "Infi Health",
             "Infi Stamina",
             "Infi Weapon Durability",
-            "Max Cash \u0026 Items",
+            "Max Cash and Items",
+            "Max Exp",
+            "No Damage (Fall, Fire, Poison, Frozen)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA03098",
+      "version": "01.000.010",
+      "title": "Dead Island 2",
+      "idLower": "ppsa03098",
+      "titleLower": "dead island 2",
+      "cheatsTotal": 10,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 10,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Fury",
+            "Infi Health",
+            "Infi Stamina",
+            "Infi Weapon Durability",
+            "Max Exp",
+            "Max Items (Get)",
+            "Max Money (Get)",
+            "No Damage (Fall, Fire, Poison, Frozen)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA03099",
+      "version": "01.000.001",
+      "title": "Dead Island 2",
+      "idLower": "ppsa03099",
+      "titleLower": "dead island 2",
+      "cheatsTotal": 9,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Fury",
+            "Infi Health",
+            "Infi Stamina",
+            "Infi Weapon Durability",
+            "Max Cash and Items",
             "Max Exp",
             "No Damage (Fall, Fire, Poison, Frozen)"
           ]
