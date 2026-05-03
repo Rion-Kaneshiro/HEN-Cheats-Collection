@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-04-30T10:41:44.320114Z",
+  "generatedUtc": "2026-05-03T15:33:22.9784945Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104418,6 +104418,47 @@
             "Infi Stamina",
             "Max Exp",
             "Max items",
+            "Max Money",
+            "Max Skill points"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA23226",
+      "version": "01.000.016",
+      "title": "Black Myth: Wukong",
+      "idLower": "ppsa23226",
+      "titleLower": "black myth: wukong",
+      "cheatsTotal": 9,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "Infi Healing Potion",
+            "Infi Health",
+            "Infi MP",
+            "Infi Skill (No Cooldown)",
+            "Infi Stamina",
+            "Max Exp",
+            "Max Items",
             "Max Money",
             "Max Skill points"
           ]
