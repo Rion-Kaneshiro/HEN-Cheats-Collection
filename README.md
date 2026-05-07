@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-05-07 | ADDED | PPSA08709 | 01.006.000 | Silent Hill 2 |
 | 2026-05-03 | ADDED | PPSA23226 | 01.000.016 | Black Myth: Wukong |
 | **---** | | | | |
 | 2026-04-30 | ADDED | PPSA03098 | 01.000.001 | Dead Island 2 |

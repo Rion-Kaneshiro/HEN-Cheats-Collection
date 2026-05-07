@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-03T15:33:22.9784945Z",
+  "generatedUtc": "2026-05-07T08:28:13.301904Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102796,6 +102796,43 @@
     {
       "id": "PPSA08709",
       "version": "01.000.000",
+      "title": "Silent Hill 2",
+      "idLower": "ppsa08709",
+      "titleLower": "silent hill 2",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo (No Reload)",
+            "Infi HP",
+            "Infi Items",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA08709",
+      "version": "01.006.000",
       "title": "Silent Hill 2",
       "idLower": "ppsa08709",
       "titleLower": "silent hill 2",

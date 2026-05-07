@@ -1219,6 +1219,7 @@ PPSA08330_05.005.000.mc4=God of War: Ragnarok
 PPSA08331_05.005.000.mc4=God of War: Ragnarok
 PPSA08332_05.005.000.mc4=God of War: Ragnarok
 PPSA08709_01.000.000.mc4=Silent Hill 2
+PPSA08709_01.006.000.mc4=Silent Hill 2
 PPSA08710_01.000.000.mc4=Silent Hill 2
 PPSA08710_01.005.000.mc4=Silent Hill 2
 PPSA08772_01.027.000.mc4=Wo Long: Fallen Dynasty
