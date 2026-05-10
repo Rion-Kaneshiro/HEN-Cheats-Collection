@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-07T08:28:13.301904Z",
+  "generatedUtc": "2026-05-08T20:38:47.7714824Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104613,6 +104613,43 @@
             "1 Hit Kill",
             "Infi Health",
             "Max Money (Buy or Sell)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA26679",
+      "version": "01.003.000",
+      "title": "NINJA GAIDEN 2 Black",
+      "idLower": "ppsa26679",
+      "titleLower": "ninja gaiden 2 black",
+      "cheatsTotal": 5,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Health",
+            "Infi Items",
+            "Max Money",
+            "Untouchable"
           ]
         }
       }
