@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-05-11 | ADDED | PPSA01494 | 01.003.001 | Borderlands 4 |
 | 2026-05-08 | ADDED | PPSA26679 | 01.003.000 | NINJA GAIDEN 2 Black |
 | 2026-05-07 | ADDED | PPSA08709 | 01.006.000 | Silent Hill 2 |
 | 2026-05-03 | ADDED | PPSA23226 | 01.000.016 | Black Myth: Wukong |

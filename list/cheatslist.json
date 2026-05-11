@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-08T20:38:47.7714824Z",
+  "generatedUtc": "2026-05-11T09:14:31.4930014Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -99679,6 +99679,44 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA01494",
+      "version": "01.003.001",
+      "title": "Borderlands 4",
+      "idLower": "ppsa01494",
+      "titleLower": "borderlands 4",
+      "cheatsTotal": 6,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "1 Hit Kill",
+            "God Mode",
+            "Infi Ammo",
+            "Infi Glide and Boost",
+            "Infi Grenades",
+            "Max Money and Iridium"
+          ]
         }
       }
     },
