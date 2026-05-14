@@ -347,8 +347,8 @@ function buildCard(entry) {
     favoriteButton.setAttribute('aria-pressed', String(nowFav));
     if (state.activeFilter === 'favorites' && !nowFav) {
       // entry no longer matches the favorites filter → drop the card
-      card.remove();
       filterEntries();
+      renderCards();
     }
     if (state.activeEntryKey === key) {
       const entryRef = state.entries.find((e) => entryKey(e) === key);
@@ -422,7 +422,7 @@ function renderCards() {
 
   // jump back to the top so the user sees their fresh results
   if (elements.cardsGrid.scrollTop) elements.cardsGrid.scrollTop = 0;
-  else window.scrollTo({ top: 0, behavior: 'instant' });
+  else window.scrollTo({ top: 0, behavior: 'auto' });
 }
 
 function formatAvailableFormats(entry) {
@@ -655,6 +655,7 @@ async function init() {
     await loadData();
     filterEntries();
     renderCards();
+	state._lastEffectiveSearch = getEffectiveSearchTerm(state.searchTerm);
     maybeRestoreModalFromHash();
   } catch (error) {
     console.error(error);
