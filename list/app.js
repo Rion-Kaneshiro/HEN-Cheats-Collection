@@ -9,6 +9,7 @@ const state = {
   activeEntryKey: null,
   totalGames: 0,
   generatedUtc: null,
+  renderedCount: 0,
 };
 
 const elements = {
@@ -42,10 +43,14 @@ const STORAGE_KEY = 'hen-cheats-favorites';
 const SEARCH_PARAM = 'q';
 const FILTER_PARAM = 'view';
 const HASH_SEPARATOR = '-';
-const COVERART_SIZE = "1024";
-const COVERART_SUFFIX = "?w=" + COVERART_SIZE + "&thumb=false";
-const COVERART_FALLBACK = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Playstation_logo_colour2.svg/960px-Playstation_logo_colour2.svg.png"; //"https://i.pinimg.com/736x/28/68/9a/28689a40d979ebb1d751814d4ce6a0e1.jpg";
+const COVERART_SIZE = '384';
+const COVERART_SUFFIX = '?w=' + COVERART_SIZE + '&thumb=false';
+const COVERART_SUFFIX_HERO = '?w=1024&thumb=false';
+const COVERART_FALLBACK = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Playstation_logo_colour2.svg/960px-Playstation_logo_colour2.svg.png';
 const MINIMUM_CHARS_FOR_SEARCH = 2;
+
+const RENDER_BATCH_SIZE = 60;
+const SEARCH_DEBOUNCE_MS = 150;
 
 function entryKey(entry) {
   return `${entry.id}${HASH_SEPARATOR}${entry.version}`;
@@ -272,8 +277,125 @@ function createPlaceholderSvg(title) {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
+let scrollSentinel = null;
+let scrollObserver = null;
+
+function ensureSentinel() {
+  if (!scrollSentinel) {
+    scrollSentinel = document.createElement('div');
+    scrollSentinel.className = 'scroll-sentinel';
+    scrollSentinel.style.cssText = 'grid-column:1/-1;height:1px;';
+  }
+  if (!scrollObserver) {
+    scrollObserver = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          renderMore();
+        }
+      },
+      { rootMargin: '600px 0px' }
+    );
+  }
+}
+
+function buildCard(entry) {
+  const clone = elements.cardTemplate.content.cloneNode(true);
+  const card = clone.querySelector('.game-card');
+  const favoriteButton = clone.querySelector('.favorite-btn');
+  const hitbox = clone.querySelector('.card-hitbox');
+  const title = clone.querySelector('.card-title');
+  const id = clone.querySelector('.card-id');
+  const version = clone.querySelector('.card-version');
+  const cheats = clone.querySelector('.card-cheats');
+  const cover = clone.querySelector('.card-cover');
+  const key = entryKey(entry);
+  const isFavorite = state.favorites.has(key);
+  const coverUrl = getCoverUrl(entry);
+
+  title.textContent = entry.title;
+  id.textContent = entry.id;
+  version.textContent = `v${entry.version}`;
+  cheats.textContent = `${entry.cheatsTotal} cheat${entry.cheatsTotal === 1 ? '' : 's'}`;
+
+  cover.loading = 'lazy';
+  cover.decoding = 'async';
+  cover.alt = `${entry.title} cover art`;
+  if (coverUrl) {
+    cover.src = coverUrl + COVERART_SUFFIX;
+  } else {
+    cover.src = COVERART_FALLBACK + COVERART_SUFFIX;
+    cover.dataset.noImage = 'true';
+  }
+
+  cover.onerror = () => {
+    cover.onerror = null;
+    cover.src = COVERART_FALLBACK + COVERART_SUFFIX;
+  };
+
+  favoriteButton.classList.toggle('is-favorite', isFavorite);
+  favoriteButton.setAttribute('aria-pressed', String(isFavorite));
+  favoriteButton.setAttribute(
+    'aria-label',
+    isFavorite ? `Remove ${entry.title} from favorites` : `Add ${entry.title} to favorites`
+  );
+
+  favoriteButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    setFavorite(key, !state.favorites.has(key));
+    const nowFav = state.favorites.has(key);
+    favoriteButton.classList.toggle('is-favorite', nowFav);
+    favoriteButton.setAttribute('aria-pressed', String(nowFav));
+    if (state.activeFilter === 'favorites' && !nowFav) {
+      // entry no longer matches the favorites filter → drop the card
+      card.remove();
+      filterEntries();
+    }
+    if (state.activeEntryKey === key) {
+      const entryRef = state.entries.find((e) => entryKey(e) === key);
+      if (entryRef) renderModal(entryRef);
+    }
+  });
+
+  hitbox.setAttribute('aria-label', `Open details for ${entry.title} ${entry.id} version ${entry.version}`);
+  hitbox.addEventListener('click', () => openModal(key));
+
+  card.dataset.entryKey = key;
+  return clone;
+}
+
+function renderMore() {
+  const remaining = state.filteredEntries.length - state.renderedCount;
+  if (remaining <= 0) {
+    if (scrollSentinel && scrollSentinel.parentNode) scrollSentinel.parentNode.removeChild(scrollSentinel);
+    return;
+  }
+
+  const batch = Math.min(RENDER_BATCH_SIZE, remaining);
+  const fragment = document.createDocumentFragment();
+  for (let i = 0; i < batch; i++) {
+    fragment.append(buildCard(state.filteredEntries[state.renderedCount + i]));
+  }
+  state.renderedCount += batch;
+
+  // sentinel must remain at the end to trigger the next batch
+  if (scrollSentinel && scrollSentinel.parentNode === elements.cardsGrid) {
+    elements.cardsGrid.insertBefore(fragment, scrollSentinel);
+  } else {
+    elements.cardsGrid.append(fragment);
+  }
+
+  // remove sentinel once everything is rendered
+  if (state.renderedCount >= state.filteredEntries.length) {
+    if (scrollSentinel && scrollSentinel.parentNode) scrollSentinel.parentNode.removeChild(scrollSentinel);
+  }
+}
+
 function renderCards() {
+  ensureSentinel();
+  if (scrollObserver && scrollSentinel) scrollObserver.unobserve(scrollSentinel);
+
   elements.cardsGrid.innerHTML = '';
+  state.renderedCount = 0;
 
   if (!state.entries.length) {
     elements.statusMessage.textContent = 'Loading data files…';
@@ -291,61 +413,16 @@ function renderCards() {
   elements.statusMessage.hidden = true;
   elements.emptyState.classList.add('hidden');
 
-  const fragment = document.createDocumentFragment();
+  renderMore();
 
-  state.filteredEntries.forEach((entry) => {
-    const clone = elements.cardTemplate.content.cloneNode(true);
-    const card = clone.querySelector('.game-card');
-    const favoriteButton = clone.querySelector('.favorite-btn');
-    const hitbox = clone.querySelector('.card-hitbox');
-    const title = clone.querySelector('.card-title');
-    const id = clone.querySelector('.card-id');
-    const version = clone.querySelector('.card-version');
-    const cheats = clone.querySelector('.card-cheats');
-    const cover = clone.querySelector('.card-cover');
-    const key = entryKey(entry);
-    const isFavorite = state.favorites.has(key);
-    const coverUrl = getCoverUrl(entry);
+  if (state.renderedCount < state.filteredEntries.length) {
+    elements.cardsGrid.append(scrollSentinel);
+    scrollObserver.observe(scrollSentinel);
+  }
 
-    title.textContent = entry.title;
-    id.textContent = entry.id;
-    version.textContent = `v${entry.version}`;
-    cheats.textContent = `${entry.cheatsTotal} cheat${entry.cheatsTotal === 1 ? '' : 's'}`;
-
-    cover.alt = `${entry.title} cover art`;
-    if (coverUrl) {
-      cover.src = coverUrl + COVERART_SUFFIX;
-    } else {
-      cover.src = COVERART_FALLBACK + COVERART_SUFFIX;
-      cover.dataset.noImage = 'true';
-    }
-
-    // fallback om bilden inte kan laddas
-    cover.onerror = () => {
-      cover.onerror = null;
-      cover.src = COVERART_FALLBACK + COVERART_SUFFIX;
-    };
-
-    favoriteButton.classList.toggle('is-favorite', isFavorite);
-    favoriteButton.setAttribute('aria-pressed', String(isFavorite));
-    favoriteButton.setAttribute('aria-label', isFavorite ? `Remove ${entry.title} from favorites` : `Add ${entry.title} to favorites`);
-
-    favoriteButton.addEventListener('click', (event) => {
-      event.stopPropagation();
-      setFavorite(key, !state.favorites.has(key));
-      filterEntries();
-      renderCards();
-      if (state.activeEntryKey === key) renderModal(entry);
-    });
-
-    hitbox.setAttribute('aria-label', `Open details for ${entry.title} ${entry.id} version ${entry.version}`);
-    hitbox.addEventListener('click', () => openModal(key));
-
-    card.dataset.entryKey = key;
-    fragment.append(card);
-  });
-
-  elements.cardsGrid.append(fragment);
+  // jump back to the top so the user sees their fresh results
+  if (elements.cardsGrid.scrollTop) elements.cardsGrid.scrollTop = 0;
+  else window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
 function formatAvailableFormats(entry) {
@@ -367,8 +444,9 @@ function renderModal(entry, { fromNavigation = false } = {}) {
   elements.modalCheatsTotal.textContent = `${entry.cheatsTotal} total cheats`;
   elements.modalCreators.textContent = `By ${creatorsText}`;
 
+  // modal hero still gets the full-size 1024 image
   elements.modalHero.style.backgroundImage = coverUrl
-    ? `linear-gradient(180deg, rgba(5,11,20,0.12), rgba(5,11,20,0.88)), url("${coverUrl.replaceAll('"', '\\"') + COVERART_SUFFIX}")`
+    ? `linear-gradient(180deg, rgba(5,11,20,0.12), rgba(5,11,20,0.88)), url("${coverUrl.replaceAll('"', '\\"') + COVERART_SUFFIX_HERO}")`
     : 'linear-gradient(135deg, rgba(108, 168, 255, 0.24), rgba(143, 124, 255, 0.28))';
 
   elements.modalCheatGroups.innerHTML = '';
@@ -441,32 +519,50 @@ function maybeRestoreModalFromHash() {
   }
 }
 
+function debounce(fn, ms) {
+  let timer = null;
+  const debounced = (...args) => {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => {
+      timer = null;
+      fn(...args);
+    }, ms);
+  };
+  debounced.flush = (...args) => {
+    if (timer) clearTimeout(timer);
+    timer = null;
+    fn(...args);
+  };
+  return debounced;
+}
+
+function runSearch() {
+  const previousEffectiveSearch = state._lastEffectiveSearch || '';
+  const nextEffectiveSearch = getEffectiveSearchTerm(state.searchTerm);
+  state._lastEffectiveSearch = nextEffectiveSearch;
+
+  // nothing changed (e.g. typing inside the 1-char "below threshold" zone) → skip
+  if (previousEffectiveSearch === nextEffectiveSearch) return;
+
+  filterEntries();
+  renderCards();
+}
+
+const debouncedSearch = debounce(runSearch, SEARCH_DEBOUNCE_MS);
+
 function initEvents() {
   elements.searchInput.addEventListener('input', (event) => {
-  
-    const previousEffectiveSearch = getEffectiveSearchTerm(state.searchTerm);
-    const nextSearchTerm = event.target.value;
-    const nextEffectiveSearch = getEffectiveSearchTerm(nextSearchTerm);
-  
-    state.searchTerm = nextSearchTerm;
+    state.searchTerm = event.target.value;
     updateUrl();
-  
-    // nothing changed → skip heavy render
-    if (previousEffectiveSearch === nextEffectiveSearch) return;
-  
-    // going from active search → inactive search (2 → 1 chars)
-    if (previousEffectiveSearch && !nextEffectiveSearch) {
-      filterEntries();
-      renderCards();
-      return;
+    debouncedSearch();
+  });
+
+  // pressing Enter should fire the search instantly without waiting for the debounce
+  elements.searchInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      debouncedSearch.flush();
     }
-  
-    // active search update
-    if (nextEffectiveSearch) {
-      filterEntries();
-      renderCards();
-    }
-  
   });
 
   elements.toggleButtons.forEach((button) => {
@@ -493,13 +589,13 @@ function initEvents() {
   window.addEventListener('resize', syncLayoutOffsets);
   window.addEventListener('popstate', () => {
     const hashKey = getHashEntryKey();
-  
+
     if (!hashKey) {
       hideModal();
       state.activeEntryKey = null;
       return;
     }
-  
+
     maybeRestoreModalFromHash();
   });
 
@@ -513,8 +609,8 @@ async function loadData() {
   elements.statusMessage.textContent = 'Loading data files…';
 
   const [cheatsResponse, coversResponse] = await Promise.all([
-    fetch('./cheatslist.json', { cache: 'no-store' }),
-    fetch('./covers.json', { cache: 'no-store' }),
+    fetch('./cheatslist.json'),
+    fetch('./covers.json'),
   ]);
 
   if (!cheatsResponse.ok || !coversResponse.ok) {
@@ -527,6 +623,8 @@ async function loadData() {
   state.entries = [...(cheatsData.entries || [])]
     .map((entry) => ({
       ...entry,
+      idLower: normalize(entry.id),
+      titleLower: normalize(entry.title),
       searchBlob: [entry.id, entry.title, ...(entry.creators || [])].map(normalize).join(' | '),
     }))
     .sort((a, b) => {
@@ -561,7 +659,8 @@ async function init() {
   } catch (error) {
     console.error(error);
     elements.statusMessage.hidden = false;
-    elements.statusMessage.textContent = 'Failed to load cheatslist.json or covers.json. Run the site from a web server and make sure both files are in the same folder.';
+    elements.statusMessage.textContent =
+      'Failed to load cheatslist.json or covers.json. Run the site from a web server and make sure both files are in the same folder.';
   } finally {
     syncLayoutOffsets();
   }
