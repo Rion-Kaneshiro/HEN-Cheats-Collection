@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-11T09:14:31.4930014Z",
+  "generatedUtc": "2026-05-15T08:46:45.6202783Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104759,6 +104759,84 @@
             "Inf Ammo",
             "Inf Health",
             "Max Exp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA30803",
+      "version": "01.200.000",
+      "title": "Resident Evil Requiem",
+      "idLower": "ppsa30803",
+      "titleLower": "resident evil requiem",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Items",
+            "Max CP (Buy)",
+            "Save count always 1",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA31246",
+      "version": "01.200.000",
+      "title": "Resident Evil Requiem",
+      "idLower": "ppsa31246",
+      "titleLower": "resident evil requiem",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Items",
+            "Max CP (Buy)",
+            "Save count always 1",
+            "Untouchable"
           ]
         }
       }
