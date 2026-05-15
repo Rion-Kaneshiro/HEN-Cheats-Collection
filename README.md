@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-05-15 | ADDED | PPSA31246 | 02.013.000 | Resident Evil Requiem |
 | 2026-05-15 | ADDED | PPSA30803 | 01.200.000 | Resident Evil Requiem |
 | 2026-05-15 | ADDED | PPSA31246 | 01.200.000 | Resident Evil Requiem |
 | 2026-05-11 | ADDED | PPSA01494 | 01.003.001 | Borderlands 4 |

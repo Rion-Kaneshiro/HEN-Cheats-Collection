@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-15T08:46:45.6202783Z",
+  "generatedUtc": "2026-05-15T13:58:54.5614698Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -104805,6 +104805,45 @@
     {
       "id": "PPSA31246",
       "version": "01.200.000",
+      "title": "Resident Evil Requiem",
+      "idLower": "ppsa31246",
+      "titleLower": "resident evil requiem",
+      "cheatsTotal": 7,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 7,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Ammo",
+            "Infi Health",
+            "Infi Items",
+            "Max CP (Buy)",
+            "Save count always 1",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA31246",
+      "version": "02.013.000",
       "title": "Resident Evil Requiem",
       "idLower": "ppsa31246",
       "titleLower": "resident evil requiem",
