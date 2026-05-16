@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-15T16:05:30.7115711Z",
+  "generatedUtc": "2026-05-16T14:20:31.0473387Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103035,6 +103035,41 @@
             "Inf Wizardry Spell Points",
             "Instant Infinite Divine Beast Gauge (Hit Enemy)",
             "Max Moral"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA09259",
+      "version": "01.006.000",
+      "title": "Hell is Us",
+      "idLower": "ppsa09259",
+      "titleLower": "hell is us",
+      "cheatsTotal": 3,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infi Lymbic Energy",
+            "Infi Stamina",
+            "Invincible"
           ]
         }
       }

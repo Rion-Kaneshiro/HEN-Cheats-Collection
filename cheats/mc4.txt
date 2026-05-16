@@ -1224,6 +1224,7 @@ PPSA08709_01.006.000.mc4=Silent Hill 2
 PPSA08710_01.000.000.mc4=Silent Hill 2
 PPSA08710_01.005.000.mc4=Silent Hill 2
 PPSA08772_01.027.000.mc4=Wo Long: Fallen Dynasty
+PPSA09259_01.006.000.mc4=Hell is Us
 PPSA09663_01.000.000.mc4=Dragon's Dogma 2
 PPSA09664_03.000.000.mc4=Dragon's Dogma 2
 PPSA10053_01.005.000.mc4=Banishers: Ghosts of New Eden
