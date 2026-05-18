@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-16T14:20:31.0473387Z",
+  "generatedUtc": "2026-05-18T15:20:43.4670595Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -100315,6 +100315,40 @@
             "Infi Health",
             "Max Items (2st Get)",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA02530",
+      "version": "01.200.000",
+      "title": "PRAGMATA",
+      "idLower": "ppsa02530",
+      "titleLower": "pragmata",
+      "cheatsTotal": 2,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 2,
+          "cheats": [
+            "Infinite Health",
+            "Unlimited Hover"
           ]
         }
       }
