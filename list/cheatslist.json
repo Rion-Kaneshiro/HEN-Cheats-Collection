@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-18T15:20:43.4670595Z",
+  "generatedUtc": "2026-05-19T20:54:24.193102Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -100322,7 +100322,7 @@
     {
       "id": "PPSA02530",
       "version": "01.200.000",
-      "title": "PRAGMATA",
+      "title": "Pragmata",
       "idLower": "ppsa02530",
       "titleLower": "pragmata",
       "cheatsTotal": 2,
@@ -103570,6 +103570,41 @@
             "Infinite Polymeric Ability",
             "Infinite Shock",
             "No Reload"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA10872",
+      "version": "01.008.000",
+      "title": "Persona 3 Reload",
+      "idLower": "ppsa10872",
+      "titleLower": "persona 3 reload",
+      "cheatsTotal": 3,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "Infinity HP (All Party)",
+            "Infinity SP 999 (All Party)",
+            "Max Money (9,999,999) on Change"
           ]
         }
       }

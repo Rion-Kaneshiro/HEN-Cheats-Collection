@@ -17,6 +17,7 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-05-19 | ADDED | PPSA10872 | 01.008.000 | Persona 3 Reload |
 | 2026-05-18 | ADDED | PPSA02530 | 01.200.000 | PRAGMATA |
 | 2026-05-16 | ADDED | PPSA09259 | 01.006.000 | Hell is Us |
 | 2026-05-15 | ADDED | PPSA30803 | 02.013.000 | Resident Evil Requiem |
