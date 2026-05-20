@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-19T20:54:24.193102Z",
+  "generatedUtc": "2026-05-20T06:46:33.252557Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -103937,6 +103937,46 @@
             "1 Hit Kill",
             "Infi Health",
             "Infi Zeni",
+            "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA15304",
+      "version": "01.001.004",
+      "title": "METAL GEAR SOLID \u0394: SNAKE EATER",
+      "idLower": "ppsa15304",
+      "titleLower": "metal gear solid \u03B4: snake eater",
+      "cheatsTotal": 8,
+      "creators": [
+        "Yharnam"
+      ],
+      "creatorsLower": [
+        "yharnam"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 8,
+          "cheats": [
+            "1 Hit Kill",
+            "Infi Air",
+            "Infi Ammo",
+            "Infi Cure Items",
+            "Infi Grenades",
+            "Infi Health",
+            "Infi Stamina",
             "Untouchable"
           ]
         }
