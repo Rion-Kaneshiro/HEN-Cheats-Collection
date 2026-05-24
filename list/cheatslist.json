@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-23T06:13:54.6653332Z",
+  "generatedUtc": "2026-05-24T13:44:51.5810401Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -102404,6 +102404,42 @@
           "hasFile": false,
           "cheatsCount": 0,
           "cheats": []
+        }
+      }
+    },
+    {
+      "id": "PPSA07631",
+      "version": "01.000.000",
+      "title": "SAROS",
+      "idLower": "ppsa07631",
+      "titleLower": "saros",
+      "cheatsTotal": 4,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 4,
+          "cheats": [
+            "Add Lucenite 999999 on pick up",
+            "Infinite Ammo",
+            "Infinite Health",
+            "Infinite Shield"
+          ]
         }
       }
     },
