@@ -379,4 +379,20 @@
       <ValueOff>C5-F0-57-C9-C5-F8-2E-C1</ValueOff>
     </Cheatline>
   </Cheat>
+  <Cheat Text="No Road Deterioration">
+    <Cheatline>
+      <PS5Offset>800-executable[0]-5</PS5Offset>
+      <Offset>3573800</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-47-0C-00-00-C8-42-E9-93-A9-C3-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <PS5Offset>13C5E66-executable[0]-5</PS5Offset>
+      <Offset>21AE19A</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-61-56-3C-01-90</ValueOn>
+      <ValueOff>C4-C1-7A-11-47-0C</ValueOff>
+    </Cheatline>
+  </Cheat>
 </Trainer>

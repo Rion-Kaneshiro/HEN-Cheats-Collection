@@ -17,6 +17,24 @@ Search by `ID`, `Title` or `cheat creator`. Mark your games as favorite and filt
 ## Version History
 | Date | Status | ID | Version | Title |
 |-|-|-|-|-|
+| 2026-05-26 | ADDED | CUSA00265 | 02.35 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | ADDED | CUSA00283 | 01.95 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | ADDED | CUSA00283 | 02.06 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | ADDED | CUSA00283 | 02.35 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | ADDED | CUSA00283 | 02.64 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | ADDED | CUSA00744 | 02.06 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | ADDED | CUSA00744 | 02.64 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | ADDED | CUSA02387 | 01.27 | Battlefield 1 |
+| 2026-05-26 | ADDED | CUSA18723 | 01.15 | Elden Ring |
+| 2026-05-26 | ADDED | CUSA23501 | 01.07 | Grand Theft Auto III – The Definitive Edition |
+| 2026-05-26 | UPDATE | CUSA00744 | 01.95 | Minecraft: PlayStation 4 Edition |
+| 2026-05-26 | UPDATE | CUSA00190 | 01.81 | Killzone: Shadow Fall |
+| 2026-05-26 | UPDATE | CUSA11260 | 01.13 | Death Stranding |
+| 2026-05-26 | UPDATE | CUSA28863 | 01.17 | Elden Ring |
+| 2026-05-26 | UPDATE | CUSA33173 | 01.02 | River City Girls 2 |
+| 2026-05-26 | UPDATE | CUSA34766 | 01.05 | Granblue Fantasy: Relink |
+| 2026-05-26 | UPDATE | CUSA00049 | 01.24 | Battlefield 4 |
+| 2026-05-26 | UPDATE | CUSA02429 | 01.00 | Battlefield 1 |
 | 2026-05-24 | ADDED | PPSA07631 | 01.000.000 | SAROS |
 | 2026-05-23 | ADDED | PPSA09519 | 01.000.011 | WUCHANG: Fallen Feathers |
 | 2026-05-20 | ADDED | PPSA15304 | 01.001.004 | METAL GEAR SOLID Δ: SNAKE EATER |

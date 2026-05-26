@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-24T13:44:51.5810401Z",
+  "generatedUtc": "2026-05-26T09:19:26.7350763Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -1541,7 +1541,7 @@
       "title": "Killzone: Shadow Fall",
       "idLower": "cusa00190",
       "titleLower": "killzone: shadow fall",
-      "cheatsTotal": 14,
+      "cheatsTotal": 18,
       "creators": [
         "Celogamez"
       ],
@@ -1556,13 +1556,17 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 7,
+          "cheatsCount": 11,
           "cheats": [
             "1 Hit Kill",
             "Infinite Ammo",
             "Infinite Health",
             "Infinite Health/1 Hit Kill/Drone (MASTERCODE/MUST BE ON)",
+            "Infinite lives",
             "Infinite Number Of Adrenaline (Health Regeneration)",
+            "Infinite SP",
+            "Max Crystals",
+            "Max SP",
             "No Reload/Infinite Grenades",
             "No Waiting Time For Use Drone"
           ]
@@ -2416,6 +2420,60 @@
     },
     {
       "id": "CUSA00265",
+      "version": "02.35",
+      "title": "Minecraft: PlayStation 4 Edition",
+      "idLower": "cusa00265",
+      "titleLower": "minecraft: playstation 4 edition",
+      "cheatsTotal": 22,
+      "creators": [
+        "NELUxP MoDz"
+      ],
+      "creatorsLower": [
+        "neluxp modz"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 22,
+          "cheats": [
+            "[\uF8EE]\uF8EF Bypass Signin",
+            "[\uF8EE]\uF8EF Change Minecraft Platform Xbox/One/X/S",
+            "[\uF8EE]\uF8EF Enable LAN Play",
+            "[\uF8EE]\uF8F9 Change Specified Color To Blue",
+            "[\uF8EE]\uF8F9 Change Specified Color To Green",
+            "[\uF8EE]\uF8F9 Change Specified Color To Red",
+            "[\uF8EE]\uF8F9 Critical attack(Host Only)",
+            "[\uF8EE]\uF8F9 Fast Break",
+            "[\uF8EE]\uF8F9 Forward jump x4",
+            "[\uF8EE]\uF8F9 Hidden Attack",
+            "[\uF8EE]\uF8F9 Multi jump",
+            "[\uF8EE]\uF8F9 No Fog",
+            "[\uF8EE]\uF8F9 One Punchman(Host Only)",
+            "[\uF8EE]\uF8F9 Player Speed x2 \u0026 Low Gravity",
+            "[\uF8EE]\uF8F9 Rapid Hit \u0026 Fast Place",
+            "[\uF8EE]\uF8F9 Reach 14 Attack \u0026 Blocks",
+            "[\uF8EE]\uF8F9 Set Entity Color Aqua",
+            "[\uF8EE]\uF8F9 Show Dev Strings",
+            "[\uF8EE]\uF8F9 Smooth Walk",
+            "[\uF8EE]\uF8F9 Unfair Attack",
+            "[\uF8EE]\uF8F9 Velocity Off XYZ",
+            "[\uF8EE]\uF8F9 Zero Gravity \u0026 Speed"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00265",
       "version": "02.64",
       "title": "Minecraft: PlayStation 4 Edition",
       "idLower": "cusa00265",
@@ -2464,6 +2522,194 @@
             "Max All Inventory Items",
             "Max Item When Used"
           ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00283",
+      "version": "01.95",
+      "title": "Minecraft: PlayStation 4 Edition",
+      "idLower": "cusa00283",
+      "titleLower": "minecraft: playstation 4 edition",
+      "cheatsTotal": 17,
+      "creators": [
+        "NELUxP_MoDz",
+        "zxcvbnm"
+      ],
+      "creatorsLower": [
+        "neluxp_modz",
+        "zxcvbnm"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 17,
+          "cheats": [
+            "[ Fast Attack and Place ]",
+            "[ Fast Mine ]",
+            "[ Freeze Potions ]",
+            "[ Freeze Time Of Day ]",
+            "[ Head Rotation 360 ]",
+            "[ High Jump ]",
+            "[ Infinite Food ]",
+            "[ Infinite Health ]",
+            "[ Infinite Items (use) ]",
+            "[ Infinite Items ]",
+            "[ Jump Forward x2 ]",
+            "[ Max Xp ]",
+            "[ Reach Attack 25]",
+            "[ Reach Blocks 25 ]",
+            "[ Slider Bypass ]",
+            "[ Unlimited Crafting ]",
+            "[ Walk in air ]"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00283",
+      "version": "02.06",
+      "title": "Minecraft: PlayStation 4 Edition",
+      "idLower": "cusa00283",
+      "titleLower": "minecraft: playstation 4 edition",
+      "cheatsTotal": 3,
+      "creators": [
+        "NELUxP MoDz"
+      ],
+      "creatorsLower": [
+        "neluxp modz"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "[Bypass signin with PSN] Microsoft welcome!",
+            "[Change Skin Unlocked!]",
+            "[Show Dev Tags]"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00283",
+      "version": "02.35",
+      "title": "Minecraft: PlayStation 4 Edition",
+      "idLower": "cusa00283",
+      "titleLower": "minecraft: playstation 4 edition",
+      "cheatsTotal": 22,
+      "creators": [
+        "NELUxP MoDz"
+      ],
+      "creatorsLower": [
+        "neluxp modz"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 22,
+          "cheats": [
+            "[\uF8EE]\uF8EF Bypass Signin",
+            "[\uF8EE]\uF8EF Change Minecraft Platform Xbox/One/X/S",
+            "[\uF8EE]\uF8EF Enable LAN Play",
+            "[\uF8EE]\uF8F9 Change Specified Color To Blue",
+            "[\uF8EE]\uF8F9 Change Specified Color To Green",
+            "[\uF8EE]\uF8F9 Change Specified Color To Red",
+            "[\uF8EE]\uF8F9 Critical attack(Host Only)",
+            "[\uF8EE]\uF8F9 Fast Break",
+            "[\uF8EE]\uF8F9 Forward jump x4",
+            "[\uF8EE]\uF8F9 Hidden Attack",
+            "[\uF8EE]\uF8F9 Multi jump",
+            "[\uF8EE]\uF8F9 No Fog",
+            "[\uF8EE]\uF8F9 One Punchman(Host Only)",
+            "[\uF8EE]\uF8F9 Player Speed x2 \u0026 Low Gravity",
+            "[\uF8EE]\uF8F9 Rapid Hit \u0026 Fast Place",
+            "[\uF8EE]\uF8F9 Reach 14 Attack \u0026 Blocks",
+            "[\uF8EE]\uF8F9 Set Entity Color Aqua",
+            "[\uF8EE]\uF8F9 Show Dev Strings",
+            "[\uF8EE]\uF8F9 Smooth Walk",
+            "[\uF8EE]\uF8F9 Unfair Attack",
+            "[\uF8EE]\uF8F9 Velocity Off XYZ",
+            "[\uF8EE]\uF8F9 Zero Gravity \u0026 Speed"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00283",
+      "version": "02.64",
+      "title": "Minecraft: PlayStation 4 Edition",
+      "idLower": "cusa00283",
+      "titleLower": "minecraft: playstation 4 edition",
+      "cheatsTotal": 16,
+      "creators": [
+        "\uD83D\uDD25MELTED NINJA\uD83D\uDD25"
+      ],
+      "creatorsLower": [
+        "\uD83D\uDD25melted ninja\uD83D\uDD25"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 16,
+          "cheats": [
+            "\u267E\uFE0FInfinite Items\u267E\uFE0F",
+            "\u267E\uFE0FInfinite Max Items\u267E\uFE0F",
+            "\u2694\uFE0FAntiknockback\u2694\uFE0F",
+            "\u2694\uFE0FUnfair Attack\u2694\uFE0F",
+            "\u26ABSet Entity Colour Black\u26AB",
+            "\u2764\uFE0FGodmode\u2764\uFE0F",
+            "\u27A1\uFE0FJump Foward x2\u27A1\uFE0F",
+            "\u27A1\uFE0FJump Foward x4\u27A1\uFE0F",
+            "\uD83C\uDF56Infinite Food\uD83C\uDF56",
+            "\uD83D\uDD1DMultijump\uD83D\uDD1D",
+            "\uD83D\uDD34Change Specified Colour To Red\uD83D\uDD34",
+            "\uD83D\uDD35Change Specified Colour To Blue\uD83D\uDD35",
+            "\uD83D\uDD35Set Entity Colour Aqua\uD83D\uDD35",
+            "\uD83D\uDE24Infinite Oxygen\uD83D\uDE24",
+            "\uD83D\uDFE2Change Specified Colour To Green\uD83D\uDFE2",
+            "\uD83D\uDFE2Set Entity Colour Green\uD83D\uDFE2"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
         },
         "mc4": {
           "hasFile": false,
@@ -5704,7 +5950,7 @@
       "title": "Minecraft: PlayStation 4 Edition",
       "idLower": "cusa00744",
       "titleLower": "minecraft: playstation 4 edition",
-      "cheatsTotal": 16,
+      "cheatsTotal": 17,
       "creators": [
         "NELUxP_MoDz",
         "zxcvbnm"
@@ -5716,7 +5962,7 @@
       "formats": {
         "json": {
           "hasFile": true,
-          "cheatsCount": 16,
+          "cheatsCount": 17,
           "cheats": [
             "[ Fast Attack and Place ]",
             "[ Fast Mine ]",
@@ -5732,8 +5978,44 @@
             "[ Max Xp ]",
             "[ Reach Attack 25]",
             "[ Reach Blocks 25 ]",
+            "[ Slider Bypass ]",
             "[ Unlimited Crafting ]",
             "[ Walk in air ]"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00744",
+      "version": "02.06",
+      "title": "Minecraft: PlayStation 4 Edition",
+      "idLower": "cusa00744",
+      "titleLower": "minecraft: playstation 4 edition",
+      "cheatsTotal": 3,
+      "creators": [
+        "NELUxP MoDz"
+      ],
+      "creatorsLower": [
+        "neluxp modz"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 3,
+          "cheats": [
+            "[Bypass signin with PSN] Microsoft welcome!",
+            "[Change Skin Unlocked!]",
+            "[Show Dev Tags]"
           ]
         },
         "shn": {
@@ -5788,6 +6070,54 @@
             "[\uF8EE]\uF8F9 Unfair Attack",
             "[\uF8EE]\uF8F9 Velocity Off XYZ",
             "[\uF8EE]\uF8F9 Zero Gravity \u0026 Speed"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA00744",
+      "version": "02.64",
+      "title": "Minecraft: PlayStation 4 Edition",
+      "idLower": "cusa00744",
+      "titleLower": "minecraft: playstation 4 edition",
+      "cheatsTotal": 16,
+      "creators": [
+        "\uD83D\uDD25MELTED NINJA\uD83D\uDD25"
+      ],
+      "creatorsLower": [
+        "\uD83D\uDD25melted ninja\uD83D\uDD25"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 16,
+          "cheats": [
+            "\u267E\uFE0FInfinite Items\u267E\uFE0F",
+            "\u267E\uFE0FInfinite Max Items\u267E\uFE0F",
+            "\u2694\uFE0FAntiknockback\u2694\uFE0F",
+            "\u2694\uFE0FUnfair Attack\u2694\uFE0F",
+            "\u26ABSet Entity Colour Black\u26AB",
+            "\u2764\uFE0FGodmode\u2764\uFE0F",
+            "\u27A1\uFE0FJump Foward x2\u27A1\uFE0F",
+            "\u27A1\uFE0FJump Foward x4\u27A1\uFE0F",
+            "\uD83C\uDF56Infinite Food\uD83C\uDF56",
+            "\uD83D\uDD1DMultijump\uD83D\uDD1D",
+            "\uD83D\uDD34Change Specified Colour To Red\uD83D\uDD34",
+            "\uD83D\uDD35Change Specified Colour To Blue\uD83D\uDD35",
+            "\uD83D\uDD35Set Entity Colour Aqua\uD83D\uDD35",
+            "\uD83D\uDE24Infinite Oxygen\uD83D\uDE24",
+            "\uD83D\uDFE2Change Specified Colour To Green\uD83D\uDFE2",
+            "\uD83D\uDFE2Set Entity Colour Green\uD83D\uDFE2"
           ]
         },
         "shn": {
@@ -12442,6 +12772,47 @@
           "cheatsCount": 1,
           "cheats": [
             "Infinite Ammo"
+          ]
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA02387",
+      "version": "01.27",
+      "title": "Battlefield 1",
+      "idLower": "cusa02387",
+      "titleLower": "battlefield 1",
+      "cheatsTotal": 9,
+      "creators": [
+        "NELUxP MoDz"
+      ],
+      "creatorsLower": [
+        "neluxp modz"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": true,
+          "cheatsCount": 9,
+          "cheats": [
+            "Better Aiming",
+            "Enemies AFK",
+            "Fire rate 60 / 2",
+            "Infinite Ammo",
+            "No Weapon Overheat",
+            "One Hit Kill",
+            "Player isGrounded",
+            "Speed Hack x2",
+            "Vsync off for more fps 120\u002B laggy on PS4"
           ]
         },
         "shn": {
@@ -44955,7 +45326,7 @@
       "title": "Death Stranding",
       "idLower": "cusa11260",
       "titleLower": "death stranding",
-      "cheatsTotal": 75,
+      "cheatsTotal": 76,
       "creators": [
         "wander",
         "wander FW9.00"
@@ -44996,7 +45367,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 29,
+          "cheatsCount": 30,
           "cheats": [
             "0.1 Weight Carrying",
             "Alot of Chiral Crystals (on collect)",
@@ -45024,6 +45395,7 @@
             "No cargo damage 2 (in case 1 didnt work)",
             "No clip",
             "No Consciousness Drain (Talixme,Vicodin10,Rizla)",
+            "No Road Deterioration",
             "No Road Deterioration (Talixme,Vicodin10,Rizla)",
             "Resins 900000 (on spend first time)",
             "Special Alloy Wont decrease"
@@ -66694,11 +67066,13 @@
       "title": "Elden Ring",
       "idLower": "cusa18723",
       "titleLower": "elden ring",
-      "cheatsTotal": 35,
+      "cheatsTotal": 41,
       "creators": [
+        "Celogamez",
         "Dioniso"
       ],
       "creatorsLower": [
+        "celogamez",
         "dioniso"
       ],
       "formats": {
@@ -66708,9 +67082,16 @@
           "cheats": []
         },
         "shn": {
-          "hasFile": false,
-          "cheatsCount": 0,
-          "cheats": []
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Max/Infinite FP",
+            "Max/Infinite Health",
+            "Max/Infinite Health\u002B1 Hit Kill",
+            "Max/Infinite Items/Potions/Arrows (On Pick Up/x2 To Work)",
+            "Max/Infinite Runes On Start",
+            "Max/Infinite Stamina"
+          ]
         },
         "mc4": {
           "hasFile": true,
@@ -69884,6 +70265,44 @@
             "Infinite-Health",
             "Infinite-lives",
             "Invincible"
+          ]
+        },
+        "mc4": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        }
+      }
+    },
+    {
+      "id": "CUSA23501",
+      "version": "01.07",
+      "title": "Grand Theft Auto III \u2013 The Definitive Edition",
+      "idLower": "cusa23501",
+      "titleLower": "grand theft auto iii \u2013 the definitive edition",
+      "cheatsTotal": 6,
+      "creators": [
+        "4GAMER"
+      ],
+      "creatorsLower": [
+        "4gamer"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": true,
+          "cheatsCount": 6,
+          "cheats": [
+            "Freeze Money",
+            "Freeze Time",
+            "Infinite Ammo",
+            "Infinite Armor",
+            "Infinite Health",
+            "Max Money"
           ]
         },
         "mc4": {
@@ -79453,7 +79872,7 @@
       "title": "Elden Ring",
       "idLower": "cusa28863",
       "titleLower": "elden ring",
-      "cheatsTotal": 57,
+      "cheatsTotal": 61,
       "creators": [
         "Celogamez",
         "Pharaoh2k, Rizla, Fullcodes"
@@ -79497,7 +79916,7 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 31,
+          "cheatsCount": 35,
           "cheats": [
             "---Infinite Health (Requires Master Code)",
             "---Infinite Horse Health (Requires Master Code)",
@@ -79516,11 +79935,15 @@
             "Infinite Health",
             "Infinite Health\u002B1 Hit Kill",
             "Infinite Items/Potions/Arrows (On Pick Up/x2 To Work)",
+            "Infinite lives",
             "Infinite Runes",
+            "Infinite SP",
             "Infinite Stamina",
             "Invincible",
             "Master Code (Must be enabled ALL THE TIME)",
+            "Max Crystals",
             "Max Inf Items (on Get and Use)",
+            "Max SP",
             "Max/Infinite Runes On Start",
             "No Effects",
             "No Overloaded Weight Slowdown",
@@ -90351,7 +90774,7 @@
       "title": "Granblue Fantasy: Relink",
       "idLower": "cusa34766",
       "titleLower": "granblue fantasy: relink",
-      "cheatsTotal": 37,
+      "cheatsTotal": 41,
       "creators": [
         "d01v",
         "Wander FW9.00"
@@ -90387,24 +90810,28 @@
         },
         "shn": {
           "hasFile": true,
-          "cheatsCount": 19,
+          "cheatsCount": 23,
           "cheats": [
             "All treasure and key items",
             "Event timer",
             "Freeze link attack timer",
             "Increase all level",
             "Infinite health",
+            "Infinite lives",
             "Infinite SBA",
             "Infinite skills",
+            "Infinite SP",
             "Instant \u002B50 treasures",
             "Max all member base atk",
             "Max all party exp",
             "Max base hp all members",
             "Max crit all members",
+            "Max Crystals",
             "Max link level",
             "Max MSP",
             "Max rupies",
             "Max Rupies (on sell)",
+            "Max SP",
             "Max stun power all members",
             "Replenish items at 1",
             "Sell item x90"
