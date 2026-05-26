@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedUtc": "2026-05-26T09:19:26.7350763Z",
+  "generatedUtc": "2026-05-26T23:43:50.0114181Z",
   "entries": [
     {
       "id": "CUSA00002",
@@ -105218,6 +105218,43 @@
             "Infi Health",
             "Infi Items (No Reduction)",
             "Untouchable"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PPSA25286",
+      "version": "01.000.151",
+      "title": "Crimson Desert",
+      "idLower": "ppsa25286",
+      "titleLower": "crimson desert",
+      "cheatsTotal": 5,
+      "creators": [
+        "Aigars Uze"
+      ],
+      "creatorsLower": [
+        "aigars uze"
+      ],
+      "formats": {
+        "json": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "shn": {
+          "hasFile": false,
+          "cheatsCount": 0,
+          "cheats": []
+        },
+        "mc4": {
+          "hasFile": true,
+          "cheatsCount": 5,
+          "cheats": [
+            "Infinite Arrows",
+            "Infinite Health Disable First To Avoid Crash",
+            "Infinite Stamina",
+            "Master Code Activate Before Health Code",
+            "Max Money Works From First Arm Wrestl In Tavern"
           ]
         }
       }
